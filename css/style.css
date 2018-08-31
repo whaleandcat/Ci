@@ -1,0 +1,69 @@
+body{
+  background-color: #bc1d2e;
+  font-family: FZCuYSJ;
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+}
+
+
+li {
+  font-size: 30px;
+  float: left;
+  color: #000000;
+  list-style: none;
+  padding:  0 25px;
+  height: 300px;
+  width:20px;
+  line-height:40px;
+}
+#main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+@font-face {
+  font-family: 'FZCuYSJ';
+  src: url('../FZCuYSJ.TTF');
+  src:
+    url('../FZCuYSJ.eot?#font-spider') format('embedded-opentype'),
+    url('../FZCuYSJ.woff') format('woff'),
+    url('../FZCuYSJ.ttf') format('truetype'),
+    url('../FZCuYSJ.svg') format('svg');
+}
+
+.mask{
+	background: #bc1d2e;
+	height: 1000px;
+	width: 1024;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	text-align:center;
+}
+
+.cicon{
+		color: white;
+	font-size: 50px;
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 8%;
+}
+
+.homeIcon {
+	background-image: url("../ye.svg");
+	background-size: 56px 56px;
+	display: block;
+	width: 56px;
+	height: 56px;
+	margin-top: 6%;
+	text-align: center; 
+	float: left; 
+	margin-left: 50%;
+	
+}
