@@ -1,4 +1,4 @@
-axios.get('song300-simplified.json')
+axios.get('./resource/song300-simplified.json')
 	.then(function(data) {
 		let arr = data.data;
 		let temp = {};
@@ -30,7 +30,7 @@ axios.get('song300-simplified.json')
 
 			}
 		};
-		console.log(end);
+//		console.log(end);
 
 		var v = new Vue({
 			el: '#main',
